@@ -1,8 +1,8 @@
-@import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
-@import "@fontsource-variable/geist";
-@import "@fontsource-variable/geist-mono";
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+@import '@fontsource-variable/geist';
+@import '@fontsource-variable/geist-mono';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -98,8 +98,8 @@
 }
 
 @theme inline {
-  --font-sans: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "Geist Mono Variable", ui-monospace, monospace;
+  --font-sans: 'Geist Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Geist Mono Variable', ui-monospace, monospace;
   --font-heading: var(--font-sans);
   --radius-sm: 6px;
   --radius-md: 8px;
